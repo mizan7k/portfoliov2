@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "Space Grotesk", monospace;
+
+  --color-brand-orange: #E93807;
+  --color-brand-black: #000000;
+  --color-brand-dark: #0a0a0a;
+  --color-brand-gray: #1a1a1a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    @apply bg-brand-black text-white selection:bg-brand-orange selection:text-white;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tighter;
+  }
+}
+
+.layered-card {
+  @apply relative overflow-hidden transition-all duration-500;
+}
+
+.layered-card::before {
+  content: '';
+  @apply absolute inset-0 bg-brand-orange translate-x-full translate-y-full transition-transform duration-500 ease-in-out -z-10;
+}
+
+.layered-card:hover::before {
+  @apply translate-x-0 translate-y-0;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.05);
+  transition: all 0.5s ease;
+}
+
+.text-outline:hover {
+  color: white;
+  -webkit-text-stroke: 1.5px transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-gray rounded-full hover:bg-brand-orange transition-colors;
+}
