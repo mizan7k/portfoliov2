@@ -17,6 +17,14 @@ const projects = [
     image: "https://i.imgur.com/1N8JZ5Q.jpeg",
     description: "An application designed to analyze and refine text using modern logic and AI-driven insights.",
     link: "https://mizan7k.github.io/truetext-app/"
+  },
+  {
+    id: 3,
+    title: "Interstellar",
+    category: "Creative UI Generation",
+    image: "https://i.imgur.com/kxAhsiP.jpeg",
+    description: "Quick and creative UI generation for modern web applications.",
+    link: "https://mizan7k.github.io/interstellar/"
   }
 ];
 
