@@ -25,6 +25,14 @@ const projects = [
     image: "https://i.imgur.com/kxAhsiP.jpeg",
     description: "Quick and creative UI generation for modern web applications.",
     link: "https://mizan7k.github.io/interstellar/"
+  },
+  {
+    id: 4,
+    title: "TradeCore",
+    category: "Business Operating System",
+    image: "https://i.imgur.com/1N8JZ5Q.jpeg",
+    description: "A unified business operating system for retail, pharmacy, and grocery management.",
+    link: "https://mizan7k.github.io/TradeCore/"
   }
 ];
 
