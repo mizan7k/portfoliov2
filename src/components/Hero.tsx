@@ -46,9 +46,9 @@ export default function Hero() {
             <span className="text-brand-orange font-mono uppercase tracking-[0.3em] text-sm mb-6 block">
               Customer Care Specialist with IT & AI Focus
             </span>
-            <h1 className="text-7xl md:text-9xl lg:text-[11rem] leading-[0.85] font-black mb-8 uppercase drop-shadow-2xl">
-              VIBE<br />
-              <span className="text-outline">CODER</span>
+            <h1 className="text-5xl md:text-7xl lg:text-[6.5rem] leading-[0.95] font-black mb-8 uppercase drop-shadow-2xl">
+              AI-Powered<br />
+              <span className="text-outline">Experiences</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto font-light leading-relaxed">
               Turning ideas into practical solutions while managing real-world digital operations.
