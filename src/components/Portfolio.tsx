@@ -6,7 +6,6 @@ const projects = [
     id: 1,
     title: "Sylhet Restaurant",
     category: "Digital Dining Experience",
-    image: "https://i.imgur.com/kxAhsiP.jpeg",
     description: "A modern web presence for a restaurant, focusing on intuitive navigation and visual appeal.",
     link: "https://mizan7k.github.io/sylhet_restaurant/"
   },
@@ -14,7 +13,6 @@ const projects = [
     id: 2,
     title: "TrueText",
     category: "AI-Powered Text Analysis",
-    image: "https://i.imgur.com/1N8JZ5Q.jpeg",
     description: "An application designed to analyze and refine text using modern logic and AI-driven insights.",
     link: "https://mizan7k.github.io/truetext-app/"
   },
@@ -22,7 +20,6 @@ const projects = [
     id: 3,
     title: "Interstellar",
     category: "Creative UI Generation",
-    image: "https://i.imgur.com/kxAhsiP.jpeg",
     description: "Quick and creative UI generation for modern web applications.",
     link: "https://mizan7k.github.io/interstellar/"
   },
@@ -30,9 +27,22 @@ const projects = [
     id: 4,
     title: "TradeCore",
     category: "Business Operating System",
-    image: "https://i.imgur.com/1N8JZ5Q.jpeg",
     description: "A unified business operating system for retail, pharmacy, and grocery management.",
-    link: "https://mizan7k.github.io/TradeCore/"
+    link: "#"
+  },
+  {
+    id: 5,
+    title: "Typing Library",
+    category: "Interactive Reading Experience",
+    description: "An interactive digital library where users improve their typing skills while reading books.",
+    link: "https://mizan7k.github.io/typinglibrary/"
+  },
+  {
+    id: 6,
+    title: "Shonargaon",
+    category: "B2B Restaurant Website",
+    description: "A modern B2B restaurant website designed to showcase services and streamline business inquiries.",
+    link: "https://mizan7k.github.io/Shonargaon/"
   }
 ];
 
