@@ -28,7 +28,7 @@ const projects = [
     title: "TradeCore",
     category: "Business Operating System",
     description: "A unified business operating system for retail, pharmacy, and grocery management.",
-    link: "#"
+    link: "https://mizan7k.github.io/TradeCore/"
   },
   {
     id: 5,
