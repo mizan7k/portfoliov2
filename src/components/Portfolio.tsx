@@ -43,6 +43,13 @@ const projects = [
     category: "B2B Restaurant Website",
     description: "A modern B2B restaurant website designed to showcase services and streamline business inquiries.",
     link: "https://mizan7k.github.io/Shonargaon/"
+  },
+  {
+    id: 7,
+    title: "KSuite",
+    category: "Productivity / Utility Application",
+    description: "An all-in-one calculator app featuring 30+ tools, including scientific, financial, health, unit conversion, and everyday utility calculators in a clean, modern interface.",
+    link: "https://github.com/mizan7k/KSuite/releases/tag/v1.0.0"
   }
 ];
 
