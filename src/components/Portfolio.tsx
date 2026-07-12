@@ -4,38 +4,38 @@ import { ExternalLink } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: "Sylhet Restaurant",
-    category: "Digital Dining Experience",
-    description: "A modern web presence for a restaurant, focusing on intuitive navigation and visual appeal.",
-    link: "https://mizan7k.github.io/sylhet_restaurant/"
+    title: "KSuite",
+    category: "Productivity / Utility Application",
+    description: "An all-in-one calculator app featuring 30+ tools, including scientific, financial, health, unit conversion, and everyday utility calculators in a clean, modern interface.",
+    link: "https://github.com/mizan7k/KSuite/releases/tag/v1.0.0"
   },
   {
     id: 2,
+    title: "K'sResume",
+    category: "Resume Builder",
+    description: "A modern, ATS-friendly resume builder featuring a live editor, real-time preview, customizable templates, drag-and-drop editing, and one-click PDF export—all without requiring an account.",
+    link: "https://mizan7k.github.io/ksresume/"
+  },
+  {
+    id: 3,
+    title: "Typing Library",
+    category: "Interactive Reading Experience",
+    description: "An interactive digital library where users improve their typing skills while reading books.",
+    link: "https://mizan7k.github.io/typinglibrary/"
+  },
+  {
+    id: 4,
     title: "TrueText",
     category: "AI-Powered Text Analysis",
     description: "An application designed to analyze and refine text using modern logic and AI-driven insights.",
     link: "https://mizan7k.github.io/truetext-app/"
   },
   {
-    id: 3,
-    title: "Interstellar",
-    category: "Creative UI Generation",
-    description: "Quick and creative UI generation for modern web applications.",
-    link: "https://mizan7k.github.io/interstellar/"
-  },
-  {
-    id: 4,
-    title: "TradeCore",
-    category: "Business Operating System",
-    description: "A unified business operating system for retail, pharmacy, and grocery management.",
-    link: "https://mizan7k.github.io/TradeCore/"
-  },
-  {
     id: 5,
-    title: "Typing Library",
-    category: "Interactive Reading Experience",
-    description: "An interactive digital library where users improve their typing skills while reading books.",
-    link: "https://mizan7k.github.io/typinglibrary/"
+    title: "Sylhet Restaurant",
+    category: "Digital Dining Experience",
+    description: "A modern web presence for a restaurant, focusing on intuitive navigation and visual appeal.",
+    link: "https://mizan7k.github.io/sylhet_restaurant/"
   },
   {
     id: 6,
@@ -46,10 +46,17 @@ const projects = [
   },
   {
     id: 7,
-    title: "KSuite",
-    category: "Productivity / Utility Application",
-    description: "An all-in-one calculator app featuring 30+ tools, including scientific, financial, health, unit conversion, and everyday utility calculators in a clean, modern interface.",
-    link: "https://github.com/mizan7k/KSuite/releases/tag/v1.0.0"
+    title: "TradeCore",
+    category: "Business Operating System",
+    description: "A unified business operating system for retail, pharmacy, and grocery management.",
+    link: "https://mizan7k.github.io/TradeCore/"
+  },
+  {
+    id: 8,
+    title: "Interstellar",
+    category: "Creative UI Generation",
+    description: "Quick and creative UI generation for modern web applications.",
+    link: "https://mizan7k.github.io/interstellar/"
   }
 ];
 
